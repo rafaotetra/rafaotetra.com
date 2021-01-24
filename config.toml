@@ -1,0 +1,74 @@
+baseurl = "https://rafaotetra.com/"
+# Shown in the side menu
+copyright = "&copy; 2016. Some rights reserved."
+canonifyurls = true
+paginate = 10
+theme = "hyde-x"
+disqusShortname = "gomex-me"
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+
+
+[author]
+    name = "Rafael Silva"
+    homepage = "https://rafaotetra.com"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/:year/:month/:day/:title"
+
+[taxonomies]
+  tag = "tags"
+  topic = "categories"
+
+[params]
+  # Shown in the home page
+  truncate = true
+  defaultDescription = "Sharing the code"
+  hideReadingTime = false
+  theme = "theme-base-07"
+  googleAnalytics = ""
+  home = "Home"
+  github = "https://github.com/rafaotetra"
+  bitbucket = ""
+  stackOverflow = ""
+  linkedin = "https://www.linkedin.com/in/rafaotetra/"
+  googleplus = ""
+  facebook = ""
+  twitter = "https://twitter.com/rafaotetra"
+  youtube = ""
+
+  [menu]
+    # Shown in the side menu.
+    [[menu.main]]
+      name = "Home"
+      pre = "<i class='fa fa-home fa-fw'></i>"
+      weight = 1
+      identifier = "home"
+      url = "/"
+    [[menu.main]]
+      name = "Tecnologia"
+      pre = "<i class='fa fa-list fa-fw'></i>"
+      weight = 2
+      identifier = "tecnologia"
+      url = "https://rafaotetra/tags/tecnologia"
+    [[menu.main]]
+      name = "Sobre a Vida"
+      pre = "<i class='fa fa-list fa-fw'></i>"
+      weight = 3
+      identifier = "vida"
+      url = "https://rafaotetra/tags/vida"
+    [[menu.main]]
+      name = "About"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 4
+      identifier = "about"
+      url = "/about/"
+
+
+  #  [[menu.main]]
+  #    name = "Contact"
+  #    pre = "<i class='fa fa-phone fa-fw'></i>"
+  #    weight = 3
+  #    url = "/contact/"
