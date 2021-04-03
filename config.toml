@@ -4,7 +4,7 @@ copyright = "&copy; 2016. Some rights reserved."
 canonifyurls = true
 paginate = 10
 theme = "hyde-x"
-disqusShortname = "gomex-me"
+disqusShortname = "rafaotetra-com"
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 
@@ -48,17 +48,17 @@ DefaultContentLanguageInSubdir = true
       identifier = "home"
       url = "/"
     [[menu.main]]
-      name = "Tecnologia"
+      name = "DevOps"
       pre = "<i class='fa fa-list fa-fw'></i>"
       weight = 2
-      identifier = "tecnologia"
-      url = "https://rafaotetra/tags/tecnologia"
-    [[menu.main]]
-      name = "Sobre a Vida"
-      pre = "<i class='fa fa-list fa-fw'></i>"
-      weight = 3
-      identifier = "vida"
-      url = "https://rafaotetra/tags/vida"
+      identifier = "devops"
+      url = "https://rafaotetra/tags/devops"
+    # [[menu.main]]
+    #   name = "Sobre a Vida"
+    #   pre = "<i class='fa fa-list fa-fw'></i>"
+    #   weight = 3
+    #   identifier = "vida"
+    #   url = "https://rafaotetra/tags/vida"
     [[menu.main]]
       name = "About"
       pre = "<i class='fa fa-user fa-fw'></i>"
