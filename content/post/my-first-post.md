@@ -9,7 +9,7 @@ Tags: ["devops", "hugo", "blog"]
 A primeira postagem do meu blog construido com Hugo.
 
 ```py
-def hello()
+def hello():
   return("world")
 ```
 
