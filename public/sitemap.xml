@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://rafaotetra.com/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/tags/blog/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/categories/blog/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/categories/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/tags/hugo/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/posts/my-first-post/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/posts/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/tags/python/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/tags/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url><url><loc>https://rafaotetra.com/categories/tecnologia/</loc><lastmod>2021-01-23T14:51:33-03:00</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://rafaotetra.com/about/</loc>
+    <lastmod>2021-04-03T22:05:04-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/tags/blog/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/categories/blog/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/categories/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/tags/devops/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/categories/devops/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/tags/hugo/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/2021/04/03/meu-primeiro-post/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/post/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url><url>
+    <loc>https://rafaotetra.com/tags/</loc>
+    <lastmod>2021-04-03T12:40:50-03:00</lastmod>
+  </url>
+</urlset>

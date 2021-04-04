@@ -58,7 +58,7 @@ DefaultContentLanguageInSubdir = true
     #   pre = "<i class='fa fa-list fa-fw'></i>"
     #   weight = 3
     #   identifier = "vida"
-    #   url = "https://rafaotetra/tags/vida"
+    #   url = "https://rafaotetra.com/tags/vida"
     [[menu.main]]
       name = "About"
       pre = "<i class='fa fa-user fa-fw'></i>"

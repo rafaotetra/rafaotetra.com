@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on</title><link>https://rafaotetra.com/tags/</link><description>Recent content in Tags on</description><generator>Hugo -- gohugo.io</generator><copyright>&amp;copy; 2016. Some rights reserved.</copyright><lastBuildDate>Sat, 23 Jan 2021 14:51:33 -0300</lastBuildDate><atom:link href="https://rafaotetra.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>blog</title><link>https://rafaotetra.com/tags/blog/</link><pubDate>Sat, 23 Jan 2021 14:51:33 -0300</pubDate><guid>https://rafaotetra.com/tags/blog/</guid><description/></item><item><title>hugo</title><link>https://rafaotetra.com/tags/hugo/</link><pubDate>Sat, 23 Jan 2021 14:51:33 -0300</pubDate><guid>https://rafaotetra.com/tags/hugo/</guid><description/></item><item><title>python</title><link>https://rafaotetra.com/tags/python/</link><pubDate>Sat, 23 Jan 2021 14:51:33 -0300</pubDate><guid>https://rafaotetra.com/tags/python/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://rafaotetra.com/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. Some rights reserved.</copyright>
+    <lastBuildDate>Sat, 03 Apr 2021 12:40:50 -0300</lastBuildDate><atom:link href="https://rafaotetra.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://rafaotetra.com/tags/blog/</link>
+      <pubDate>Sat, 03 Apr 2021 12:40:50 -0300</pubDate>
+      
+      <guid>https://rafaotetra.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://rafaotetra.com/tags/devops/</link>
+      <pubDate>Sat, 03 Apr 2021 12:40:50 -0300</pubDate>
+      
+      <guid>https://rafaotetra.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://rafaotetra.com/tags/hugo/</link>
+      <pubDate>Sat, 03 Apr 2021 12:40:50 -0300</pubDate>
+      
+      <guid>https://rafaotetra.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
