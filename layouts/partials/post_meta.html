@@ -1,0 +1,38 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $dateFormat := default "January 2, 2006" site.Params.DateFormat -}}
+{{- $formattedDate := .Date | time.Format $dateFormat -}}
+{{- $capitalizedDate := $formattedDate | 
+    replaceRE "janeiro" "Janeiro" | 
+    replaceRE "fevereiro" "Fevereiro" | 
+    replaceRE "março" "Março" | 
+    replaceRE "abril" "Abril" | 
+    replaceRE "maio" "Maio" | 
+    replaceRE "junho" "Junho" | 
+    replaceRE "julho" "Julho" | 
+    replaceRE "agosto" "Agosto" | 
+    replaceRE "setembro" "Setembro" | 
+    replaceRE "outubro" "Outubro" | 
+    replaceRE "novembro" "Novembro" | 
+    replaceRE "dezembro" "Dezembro" -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) $capitalizedDate)) }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- end }}
+
+{{- if not (.Param "hideAuthor") -}}
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}
