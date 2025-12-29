@@ -1,3 +1,129 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://rafaotetra.com
+languageCode: pt-br
+title: Rafael Silva
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+minify:
+  disableXML: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+languages:
+  pt:
+    languageName: "Português"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts
+          weight: 10
+        - name: Projetos
+          url: projetos
+          weight: 20
+        - name: Contato
+          url: contato
+          weight: 30
+        - name: Archive
+          url: archives
+          weight: 40
+        - name: Busca
+          url: busca/
+          weight: 50
+        - name: Tags
+          url: tags/
+          weight: 60
+
+    params:
+      languageAltTitle: Português
+      profileMode:
+        enabled: true
+        title: Rafael Silva
+        imageUrl: "/images/profile.jpg"
+        imageTitle: Rafael Silva
+        imageWidth: 150
+        imageHeight: 150
+        subtitle: "O Desenvolvedor D'Eficiente ♿️"
+        buttons:
+          - name: Sobre
+            url: sobre
+          - name: Posts
+            url: posts
+          - name: Projetos
+            url: projetos
+          - name: Contato
+            url: contato
+
+params:
+  env: production
+  author: "Rafael Silva"
+  description: "O Desenvolvedor D'Eficiente ♿️"
+  
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: false
+  ShowPageNums: true
+  ShowToc: true
+  hidemeta: true
+  
+  # Configure which share buttons to show
+  ShareButtons: ["linkedin", "twitter", "telegram"]
+  
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/rafaotetra"
+    - name: linkedin
+      title: Connect on LinkedIn
+      url: "https://www.linkedin.com/in/rafaotetra/"
+    - name: twitter
+      title: Follow on Twitter
+      url: "https://twitter.com/rafaotetra"
+    - name: instagram
+      title: Follow on Instagram
+      url: "https://www.instagram.com/rafaotetra/"
+
+  editPost:
+    URL: "https://github.com/rafaotetra/rafaotetra.com/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+services:
+  instagram:
+    disableInlineCSS: true
