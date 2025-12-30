@@ -1,0 +1,5 @@
+{{- /* Optional Google Analytics snippet. Renders only when googleAnalytics is set. */ -}}
+{{- if site.GoogleAnalytics }}
+  {{ template "_internal/google_analytics.html" . }}
+{{- end -}}
+
