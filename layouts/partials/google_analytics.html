@@ -1,5 +1,12 @@
-{{- /* Optional Google Analytics snippet. Renders only when googleAnalytics is set. */ -}}
-{{- if site.GoogleAnalytics }}
-  {{ template "_internal/google_analytics.html" . }}
+{{- /* Lightweight GA snippet; avoids relying on Hugo's deprecated _internal partial. */ -}}
+{{- $id := site.Config.Services.GoogleAnalytics.ID }}
+{{- if $id }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ $id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ $id }}');
+  </script>
 {{- end -}}
 
