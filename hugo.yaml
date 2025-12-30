@@ -1,5 +1,6 @@
 baseURL: https://rafaotetra.com
 languageCode: pt-br
+defaultContentLanguage: pt
 title: Rafael Silva
 theme: ["PaperMod"]
 
